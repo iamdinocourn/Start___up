@@ -1,0 +1,128 @@
+*{
+-webkit-box-sizing: border-box;
+
+}
+.navegacion{
+width: auto;
+margin: auto;
+background: #ffffff;
+}
+
+.navegacion ul{
+list-style: none;
+}
+
+.menu > li{
+position:relative;
+display: inline-block;
+}
+
+.menu > li >a{
+display: block;
+padding: 20px 30px;
+color: black;
+font-family: 'Comfortaa';
+text-decoration: none;
+}
+
+.menu li a:hover{
+color:  black;
+background-color: aliceblue; 
+transition: all .3s;
+}
+
+.submenu{
+position: absolute;
+background: darkblue ;
+width: 140%;
+padding: 5px;
+display: none;
+}
+
+.submenu li a{
+display: block;
+padding: 10px;
+color: #ffffff;
+font-family: 'Comfortaa';
+text-decoration: none; 
+}
+
+.menu li:hover .submenu{
+display: block;
+visibility: visible;
+opacity: 1;
+}
+
+.fondoBanner{
+    width: 1200px;
+    height:800px;
+    animation: fondoBanner 10s infinite linear alternate;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+background-image: url(../img/computadora1.jpg)
+}
+
+.banner {
+    font-size:40px;
+    color: black;
+    margin-top: 500px ;
+    margin-left: 500px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.big {
+    font-size:70px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.lupa{
+    width: 30px;
+    margin-top: 10px;
+    margin-left: 100px;
+    float: left;
+}
+.logo{
+    width: 80px;
+    margin-left: 50px;
+    margin-top: 10px;
+    float: left;    
+}
+
+.facebook{
+    width: 30px;
+    margin-right: 100px;
+margin-top: 10px;
+    float: right;  
+    
+}
+.whats{
+    width: 30px;
+    margin-right: 30px;
+margin-top: 10px;
+    float: right;    
+}
+
+.instagram{
+    width: 30px;
+    margin-right: 30px;
+margin-top: 10px;
+    float: right;  
+}
+.banner{
+height: 800px;
+
+}
+.img_banner{
+margin: auto;
+display: block;
+width: 100%;
+max-width: 1200px;
+min-width: 50px;
+height: 700px;
+}
+
+
+
